@@ -87,7 +87,7 @@ df <- data.frame(milestones = rep('Manuscript', nTasks),
                  stringsAsFactors = FALSE)
 
 kable(df, "html") %>%
-    kable_styling(full_width = F)
+    kable_styling(full_width =T)
 ```
 
 <br/>
@@ -100,7 +100,7 @@ We can now create our Gantt chart!
 
 <br/>
 
-```{r singleGantt, fig.width = 10, fig.height = 4}
+```{r singleGantt, fig.width = 10, fig.height = 4, out.width = '100%'}
 # Let's first organize our graph in order of tasks startDate
 df <- arrange(df, desc(startDate))
 
@@ -155,7 +155,7 @@ together, so let's make this chart multi-milestony.
 
 <br/>
 
-```{r multiGantt, fig.width = 10}
+```{r multiGantt, fig.width = 10, out.width = '100%'}
 # We will simply duplicate the manuscript and do as though we are working on three consecutive manuscripts
 df2 <- df3 <- df
 df2$milestones <- 'Manuscript2'
@@ -233,7 +233,7 @@ abline(v = as.Date(format(Sys.time(), format = "%Y-%m-%d")), lwd = 2, lty = 2)
 
 Now that we have all the code, let's simply transform it into a reusable function. Let's also give it the choice to generate two types of graph: 1) all milestones and tasks or 2) only milestones.
 
-```{r, ganttR, fig.width = 10, warning = F}
+```{r, ganttR, fig.width = 10, warning = F, out.width = '100%'}
 ganttR <- function(df, type = 'all') {
     nameMilestones <- unique(df$milestones)
     nMilestones <- length(nameMilestones)
@@ -341,7 +341,7 @@ ganttR <- function(df, type = 'all') {
                   font = df$font[ms[i]])
         }
         abline(v = as.Date(format(Sys.time(), format = "%Y-%m-%d")), lwd = 2, lty = 2)
-    }   
+    }
 }
 
 # Single milestone

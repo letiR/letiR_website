@@ -61,7 +61,8 @@ interFunction <- data.frame(Function = c('`raster::intersect`',
                             Binary = rep('X',5),
                             Zonal = c('X','','X','','X'))
 
-knitr::kable(interFunction, "html", digits = 2) %>% kable_styling(full_width = F)
+knitr::kable(interFunction, "html", digits = 2) %>%
+  kable_styling("striped", full_width = F)
 ```
 
 <br/>
@@ -133,7 +134,7 @@ data (biotic and/or abiotic) from multiple sources to characterize a study area.
 
 <br/>
 
-```{r grid}
+```{r grid, out.width = '100%'}
 # Projection in lambers
 projSpat <- "+proj=lcc +lat_1=46 +lat_2=60 +lat_0=44 +lon_0=-68.5 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs +ellps=GRS80 +towgs84=0,0,0"
 
@@ -193,7 +194,7 @@ sampNames
 for(i in 1:nSamp) {
     assign(x = sampNames[i],
            value = data.frame(lon = runif(n = samp[i], min = lonmin, max = lonmax),
-                              lat = runif(n = samp[i], min = latmin, max = latmax)))    
+                              lat = runif(n = samp[i], min = latmin, max = latmax)))
 }
 
 # We now have nSamp new objects with randomly generated coordinates
@@ -221,7 +222,7 @@ for(i in 1:nSamp) {
 <center>![](/assets/RIntersects/pts.png){width=70%}</center>
 <br/>
 
-```{r randomData2, eval = F}
+```{r randomData2, eval = F, out.width = '100%'}
 # Now we generate polygons from the point data using the `rgeos::gBuffer`,
 # see `sf::st_buffer` is the equivalent for the `sf` package
 sampNamesPoly <- paste0('Poly',samp)
@@ -290,9 +291,10 @@ for(i in 1:nSamp) {
 }
 ```
 
-```{r ptIntersect2}
+```{r ptIntersect2, out.width = '100%' }
 # Visualize results table
-knitr::kable(res1, "html", digits = 2) %>% kable_styling(full_width = F)
+knitr::kable(res1, "html", digits = 2) %>%
+  kable_styling("striped", full_width = F)
 
 # Visualize results
 cols <- c("#3fb3b2", "#484f42", "#ffdd55", "#c7254e", "#1b95e0")
@@ -355,9 +357,10 @@ for(i in 1:nSamp) {
 }
 ```
 
-```{r polyIntersect2}
+```{r polyIntersect2, out.width = '100%'}
 # Visualize results table
-knitr::kable(res2, "html", digits = 2) %>% kable_styling(full_width = F)
+knitr::kable(res2, "html", digits = 2) %>%
+  kable_styling("striped", full_width = F)
 
 # Visualize results
 layout(matrix(c(1,2), ncol =2), widths = c(5,2), heights = 3)
@@ -403,7 +406,7 @@ Et voilà! It is obvious from these simulations that the `sf` package overall
 provides the most efficient options to perform spatial intersects in R.
 `rgeos` is also very efficient when it comes to binary intersects, especially
 with polygons on polygons intersects where it edges `st_intersects` by
-decreasing calculation time in half.  
+decreasing calculation time in half.
 
 Our recommendation: use `sf::st_intersects` for binary intersects and
 use `sf::st_intersection` for zonal intersects. However, be aware that the `sf`

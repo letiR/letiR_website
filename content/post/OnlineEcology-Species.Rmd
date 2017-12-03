@@ -133,8 +133,7 @@ rownames(ecol) <- NULL
 ecol <- ecol[ecol[,2] != 0, ] # remove 0
 ecol <- ecol[!is.na(ecol[,2]), ] # remove NAs
 
-knitr::kable(ecol, col.names = c('Descriptors', 'Attributes'), "html") %>%
-    kableExtra::kable_styling(full_width = FALSE)
+knitr::kable(ecol, col.names = c('Descriptors', 'Attributes'), "html")
 ```
 
 <br/>
@@ -151,7 +150,7 @@ databases accessible through their Application Programming Interface (API).
 ```{r taxonomy1, results='asis'}
 # Export the taxonomy of the species of interest
 taxize::classification(sp, db = 'worms', accepted = TRUE, verbose = FALSE)[[1]] %>%
-    knitr::kable("html") %>% kableExtra::kable_styling(full_width = FALSE)
+    knitr::kable("html")
 ```
 <br>
 
@@ -275,8 +274,7 @@ and terrestrial environments and a total of
 
 ```{r, sdmpredictors}
 # List sdmpredictors datasets
-    knitr::kable(sdmpredictors::list_datasets(), 'html') %>%
-        kable_styling(full_width = F)
+    knitr::kable(sdmpredictors::list_datasets(), 'html')
 ```
 
 <br/>
@@ -318,8 +316,7 @@ envCov <- raster::crop(envCov, raster::extent(lonmin, lonmax, latmin, latmax)) %
 
 ```{r cropEnvCov2, eval = TRUE}
 # Data description
-knitr::kable(sdmpredictors::get_layers_info(layers)$current[,1:4], 'html') %>%
-  kable_styling()
+knitr::kable(sdmpredictors::get_layers_info(layers)$current[,1:4], 'html')
 ```
 
 ```{r, plotEnvVar, eval = TRUE, fig.width = 9.5, fig.height = 6}
@@ -389,8 +386,7 @@ model for your species of interest...
 
 ```{r, modelEval}
 # Model evaluation
-  knitr::kable(biomod2::get_evaluations(SDM), 'html')  %>%
-      kable_styling(full_width = F)
+  knitr::kable(biomod2::get_evaluations(SDM), 'html')
 ```
 
 

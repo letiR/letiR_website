@@ -26,11 +26,11 @@ source('../../static/Rscript/codeChunkSetUp.R')
 <br>
 
 ```{r packageNetwork}
-  packDep <-tools::package_dependencies()
-  nPack <- length(packDep)
-  packNames <- names(packDep)
-  packNet <- matrix(0, nPack, nPack, dimnames = list(packNames, packNames))
-  for(i in 1:nPack) packNet[packNames %in% packDep[[i]], i] <- 1
+  # packDep <-tools::package_dependencies()
+  # nPack <- length(packDep)
+  # packNames <- names(packDep)
+  # packNet <- matrix(0, nPack, nPack, dimnames = list(packNames, packNames))
+  # for(i in 1:nPack) packNet[packNames %in% packDep[[i]], i] <- 1
 ```
 
 ```{r igraph}

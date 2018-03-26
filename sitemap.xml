@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2018/02/11/trick-or-tips-003-r/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/</loc>
+    <lastmod>2018-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2017/11/12/trick-or-tips-002-r/</loc>
+    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2017/09/20/gantt-charts-in-r/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</loc>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2017/09/11/useful-web-links/</loc>
+    <lastmod>2017-09-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2017/06/30/trick-or-tips-001-r/</loc>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2017/06/19/online-ecology---individual-species-description/</loc>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2017/05/23/add-icons-on-your-r-plot/</loc>
+    <lastmod>2017-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2017/04/14/make-your-r-plot-hylian/</loc>
+    <lastmod>2017-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/about/</loc>
+    <lastmod>2016-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/2015/12/04/list-of-r-packages-to-create-and-edit-plots/</loc>
+    <lastmod>2015-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/animation/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/debian/</loc>
+    <lastmod>2018-01-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/ecology/</loc>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/fonts/</loc>
+    <lastmod>2017-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/gantt/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/icons/</loc>
+    <lastmod>2017-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/intersection/</loc>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/linux/</loc>
+    <lastmod>2018-01-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/nasa/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/network/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/open-data/</loc>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/open-science/</loc>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/plot/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/post/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/r/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/radiation/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/spatial/</loc>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/st.-lawrence/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/time-management/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/tips/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/trickortips/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tutorials/</loc>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/viz/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/web-links/</loc>
+    <lastmod>2017-09-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/wiki/</loc>
+    <lastmod>2017-09-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/tags/zelda/</loc>
+    <lastmod>2017-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insileco.github.io/softwares/</loc>
+  </url>
+  
+</urlset>

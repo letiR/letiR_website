@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian on inSileco</title>
+    <link>https://insileco.github.io/tags/debian/</link>
+    <description>Recent content in Debian on inSileco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insileco.github.io/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting my Debian Stretch up</title>
+      <link>https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/</guid>
+      <description>This post details my Debian Stretch setup on my Lenovo ThinkPad T470p. I got this machine in early August 2017, so I now have almost 6 months worth of experience on Debian and I thought it was a good time to 1- document the rationale behind my move from MacOS to Debian 2- explain how I set my computer up and 3- how I rate my appreciation of working on Debian.</description>
+    </item>
+    
+  </channel>
+</rss>

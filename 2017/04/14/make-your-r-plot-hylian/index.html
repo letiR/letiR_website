@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <title>Make your R plot Hylian</title>
+
+        <style>
+
+    html body {
+        font-family: Lato, sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #3fb3b2;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="../../../../css/main.css">
+
+
+ <link rel="stylesheet" href="css/style.css"> 
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+<link rel="stylesheet" href="../../../../css/academicons.min.css" />
+
+
+<link rel="stylesheet" href="../../../../css/font-awesome.min.css" />
+
+
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href="../../../../css/jquery.tocify.css" />
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+    
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+ <script src="../../../../js/jquery.tocify.min.js"></script>
+ <meta name="generator" content="Hugo 0.37.1" />
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109508556-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+          gtag('config', 'UA-109508556-1');
+        </script>
+        
+
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Make your R plot Hylian</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="../../../../">Home</a></li>
+                            
+                                <li><a href="../../../../about/">About</a></li>
+                            
+                                <li><a href="../../../../post/">Posts</a></li>
+                            
+                                <li><a href="../../../../softwares/">Softwares</a></li>
+                            
+                                <li><a href="../../../../tutorials/">Tutorials</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://github.com/inSileco/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/inSileco/"><i class="fa fa-twitter"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<img class="full-width" width="100%" src="../../../../img/banner2.png"></img>
+
+
+
+
+<div>
+
+
+  <div class="col-md-3">
+    <div class="hidden-sm hidden-xs">
+      <div id="toc"></div>
+    </div>
+  </div>
+
+  <div class="col-md-8">
+
+    <h1><a href="../../../../2017/04/14/make-your-r-plot-hylian/">Make your R plot Hylian</a></h1>
+
+    <h5>April 14, 2017</h5>
+
+    <p> <a href="../../../../tags/r"><kbd class="item-tag">R</kbd></a>  <a href="../../../../tags/plot"><kbd class="item-tag">plot</kbd></a>  <a href="../../../../tags/fonts"><kbd class="item-tag">fonts</kbd></a>  <a href="../../../../tags/icons"><kbd class="item-tag">icons</kbd></a>  <a href="../../../../tags/zelda"><kbd class="item-tag">zelda</kbd></a> </p>
+
+
+    
+      <p style = "font-size: 1.6em; margin-top: 20px"> <i class="fa fa-pencil" aria-hidden="true"></i>
+       
+        <a href="../../../../about/">Kevin Cazelles &nbsp;
+       
+        <a href="../../../../about/">David Beauchesne &nbsp;
+       
+        <a href="../../../../about/">Nicolas Casajus &nbsp;
+      
+    </a> <a href="#"></a></p>
+    
+
+
+    
+
+     <i class="fa fa-clock-o" aria-hidden="true"></i> 8min 
+
+
+    <p> <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="true" data-text="Make your R plot Hylian">Tweet</a>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </p>
+
+
+    <div class="text-justify">
+      <p>
+      
+        
+          <i class="fa fa-edit" aria-hidden="true"></i> Nov 11, 2017 -- Change paths to font files <br>
+        
+      
+      </p>
+    </div>
+
+
+    <br>
+
+    <div class="text-justify">
+
+      <div id="below-are-presented-the-6-steps-you-need-to-make-your-plot-a-hylian-one-may-the-triforce-be-with-you" class="section level4">
+<h4>Below are presented the 6 steps you need to make your plot a Hylian one! <strong>May the triforce be with you</strong>!</h4>
+</div>
+<div id="r-version" class="section level3">
+<h3>0. R Version</h3>
+<pre class="r"><code>sessionInfo()[[1L]]$version.string
+#R&gt; [1] &quot;R version 3.4.4 (2017-01-27)&quot;</code></pre>
+</div>
+<div id="open-r-and-download-the-font" class="section level3">
+<h3>1. Open R and download the font</h3>
+<p>The <a href="https://zeldauniverse.net/media/fonts/"><em>Triforce</em> font</a> is available on line. Below we download it using R! Alternatively, you may simply download and install it using a couple of clicks, if you proceed so, skip step 1.</p>
+<pre class="r"><code># Create a directory &lt; fonts &gt;
+dr &lt;- &quot;downloaded_files/&quot;
+dir.create(dr, showWarnings = FALSE)
+
+# Download Triforce font &lt; Triforce.ttf &gt;
+url &lt;- &quot;http://zeldauniverse.net/wp-content/uploads/2014/01/Triforce.ttf_.zip&quot;
+download.file(url, destfile=paste0(dr, basename(url)),method=&quot;libcurl&quot;)
+
+# Unzip the file
+unzip(paste0(dr, basename(url)), exdir = dr)
+
+# Remove .zip
+file.remove(paste0(dr, basename(url)))
+#R&gt; [1] TRUE</code></pre>
+</div>
+<div id="install-the-showtext-package" class="section level3">
+<h3>2. Install the <code>showtext</code> package</h3>
+<pre class="r"><code>install.packages(&quot;showtext&quot;)</code></pre>
+</div>
+<div id="look-at-the-list-of-fonts-available-locally" class="section level3">
+<h3>3. Look at the list of fonts available locally</h3>
+<pre class="r"><code>library(showtext)
+showtext_auto()
+font_files()
+#R&gt;  [1] &quot;DejaVuSans-Bold.ttf&quot;                
+#R&gt;  [2] &quot;DejaVuSans.ttf&quot;                     
+#R&gt;  [3] &quot;DejaVuSansMono-Bold.ttf&quot;            
+#R&gt;  [4] &quot;DejaVuSansMono.ttf&quot;                 
+#R&gt;  [5] &quot;DejaVuSerif-Bold.ttf&quot;               
+#R&gt;  [6] &quot;DejaVuSerif.ttf&quot;                    
+#R&gt;  [7] &quot;LiberationMono-Bold.ttf&quot;            
+#R&gt;  [8] &quot;LiberationMono-BoldItalic.ttf&quot;      
+#R&gt;  [9] &quot;LiberationMono-Italic.ttf&quot;          
+#R&gt; [10] &quot;LiberationMono-Regular.ttf&quot;         
+#R&gt; [11] &quot;LiberationSans-Bold.ttf&quot;            
+#R&gt; [12] &quot;LiberationSans-BoldItalic.ttf&quot;      
+#R&gt; [13] &quot;LiberationSans-Italic.ttf&quot;          
+#R&gt; [14] &quot;LiberationSans-Regular.ttf&quot;         
+#R&gt; [15] &quot;LiberationSansNarrow-Bold.ttf&quot;      
+#R&gt; [16] &quot;LiberationSansNarrow-BoldItalic.ttf&quot;
+#R&gt; [17] &quot;LiberationSansNarrow-Italic.ttf&quot;    
+#R&gt; [18] &quot;LiberationSansNarrow-Regular.ttf&quot;   
+#R&gt; [19] &quot;LiberationSerif-Bold.ttf&quot;           
+#R&gt; [20] &quot;LiberationSerif-BoldItalic.ttf&quot;     
+#R&gt; [21] &quot;LiberationSerif-Italic.ttf&quot;         
+#R&gt; [22] &quot;LiberationSerif-Regular.ttf&quot;</code></pre>
+<p>If you have installed the font on your computer, it should be in the list, then you can skip step 4.</p>
+</div>
+<div id="add-a-path-to-your-font" class="section level3">
+<h3>4. Add a path to your font</h3>
+<p>If you have downloaded the font using R, you must notify showtext about to folder <code>dr</code> where the font has been stored. To so do, use the <code>font_paths()</code> function:</p>
+<pre class="r"><code>font_paths(dr)
+#R&gt;  [1] &quot;/home/travis/build/inSileco/inSileco.github.io/content/post/downloaded_files&quot;
+#R&gt;  [2] &quot;/usr/local/share/fonts&quot;                                                      
+#R&gt;  [3] &quot;/usr/share/fonts&quot;                                                            
+#R&gt;  [4] &quot;/usr/share/fonts/truetype&quot;                                                   
+#R&gt;  [5] &quot;/usr/share/fonts/truetype/dejavu&quot;                                            
+#R&gt;  [6] &quot;/usr/share/fonts/truetype/liberation&quot;                                        
+#R&gt;  [7] &quot;/usr/share/fonts/type1&quot;                                                      
+#R&gt;  [8] &quot;/usr/share/fonts/type1/gsfonts&quot;                                              
+#R&gt;  [9] &quot;/usr/share/fonts/X11&quot;                                                        
+#R&gt; [10] &quot;/usr/share/fonts/X11/encodings&quot;                                              
+#R&gt; [11] &quot;/usr/share/fonts/X11/encodings/large&quot;                                        
+#R&gt; [12] &quot;/usr/share/fonts/X11/misc&quot;                                                   
+#R&gt; [13] &quot;/usr/share/fonts/X11/misc/dosemu&quot;                                            
+#R&gt; [14] &quot;/usr/share/fonts/X11/Type1&quot;                                                  
+#R&gt; [15] &quot;/usr/share/fonts/X11/util&quot;</code></pre>
+</div>
+<div id="add-the-triforce-font-to-your-session" class="section level3">
+<h3>5. Add the <em>Triforce</em> font to your session:</h3>
+<p>Either way, the Triforce font should now be available</p>
+<pre class="r"><code># Is the TTF present?
+font_files()[grep(&quot;Triforce&quot;, font_files())]
+#R&gt; [1] &quot;Triforce.ttf&quot;</code></pre>
+<p>Let’s add it to our session:</p>
+<pre class="r"><code>font_add(family = &#39;Triforce&#39;, regular = &#39;Triforce.ttf&#39;)
+font_families()
+#R&gt; [1] &quot;sans&quot;         &quot;serif&quot;        &quot;mono&quot;         &quot;wqy-microhei&quot;
+#R&gt; [5] &quot;Triforce&quot;</code></pre>
+</div>
+<div id="finally-lets-make-our-hylian-plot" class="section level3">
+<h3>6. Finally, let’s make our Hylian plot!</h3>
+<pre class="r"><code>showtext_begin()
+par(family = &quot;Triforce&quot;, las = 1, cex.lab = 3, cex.main = 3, cex.axis=2, mar = c(4, 5, 5, 0))
+plot(x = c(0, 1), y = c(0, 1), type = &quot;n&quot;, xlab = &quot;X-axis&quot;, ylab = &quot;Y-axis&quot;)
+title(main = &quot;Hylian Style - Link must be proud of us!&quot;)
+##-- triforce symbols / rubies / swords
+points(x = runif(5), y = runif(5), pch = &quot;*&quot;, cex = 4)
+points(x = runif(5), y = runif(5), pch = &quot;$&quot;, cex = 4, col = &quot;#1b95e0&quot;)
+points(x = runif(5), y = runif(5), pch = &quot;@&quot;, cex = 4, col = &quot;#8555b4&quot;)
+##-- big Links
+points(x = 0.1, y = 0.1, pch = &quot;%&quot;, cex = 10, col = &quot;#3fb3b2&quot;, lwd=2)
+points(x = 0.9, y = 0.9, pch = &quot;^&quot;, cex = 10, col = &quot;#ffdd55&quot;, lwd=2)</code></pre>
+<p><img src="../../../../post/HylianStyle_files/figure-html/unnamed-chunk-8-1.png" width="864" style="display: block; margin: auto;" /></p>
+<p><br></p>
+</div>
+
+
+    </div>
+
+
+
+    <h3 class="page-header">Comments on this post</h3>
+
+    <div id="disqus_thread"></div>
+
+
+    
+    
+
+
+    
+      <h3 class="page-header">Related posts</h3>
+       <div class="item">
+
+  
+
+  <h1><a href="../../../../2018/02/21/hierarchical-edge-bundling-using-base-plot/">Hierarchical edge bundling using base plot</a></h1>
+
+  <h5>February 21, 2018</h5>
+
+  <p> <a href="../../../../tags/r"><kbd class="item-tag">R</kbd></a>  <a href="../../../../tags/viz"><kbd class="item-tag">Viz</kbd></a>  <a href="../../../../tags/network"><kbd class="item-tag">network</kbd></a> </p>
+
+  
+
+</div>
+  <div class="item">
+
+  
+
+  <h1><a href="../../../../2018/02/11/trick-or-tips-003-r/">Trick or Tips 003 {R}</a></h1>
+
+  <h5>February 11, 2018</h5>
+
+  <p> <a href="../../../../tags/r"><kbd class="item-tag">R</kbd></a>  <a href="../../../../tags/tips"><kbd class="item-tag">tips</kbd></a>  <a href="../../../../tags/trickortips"><kbd class="item-tag">trickortips</kbd></a> </p>
+
+  
+
+</div>
+  <div class="item">
+
+  
+
+  <h1><a href="../../../../2017/11/12/trick-or-tips-002-r/">Trick or Tips 002 {R}</a></h1>
+
+  <h5>November 12, 2017</h5>
+
+  <p> <a href="../../../../tags/r"><kbd class="item-tag">R</kbd></a>  <a href="../../../../tags/tips"><kbd class="item-tag">tips</kbd></a>  <a href="../../../../tags/trickortips"><kbd class="item-tag">trickortips</kbd></a> </p>
+
+  
+
+</div>
+ 
+    
+
+
+    <script>
+        $(function() {
+
+            var toc = $("#toc").tocify({
+              selectors: "h2,h3",
+              scrollTo: 60
+            }).data("toc-tocify");
+
+            prettyPrint();
+            $(".optionName").popover({ trigger: "hover" });
+
+        });
+    </script>
+
+    <script>
+      
+
+
+      var disqus_config = function() {
+        this.page.url = "https://insileco.github.io" + "https://insileco.github.io/2017/04/14/make-your-r-plot-hylian/"; 
+        this.page.identifier = "Make your R plot Hylian"; 
+      };
+
+      (function() { 
+        var d = document,
+          s = d.createElement('script');
+        s.src = 'https://insileco.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  </div>
+</div>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; 2018 inSileco | All rights reserved | Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,  <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+
+        </footer>
+
+    </body>
+
+</html>
+

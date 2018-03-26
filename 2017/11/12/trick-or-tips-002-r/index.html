@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <title>Trick or Tips 002 {R}</title>
+
+        <style>
+
+    html body {
+        font-family: Lato, sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #3fb3b2;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="../../../../css/main.css">
+
+
+ <link rel="stylesheet" href="css/style.css"> 
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+<link rel="stylesheet" href="../../../../css/academicons.min.css" />
+
+
+<link rel="stylesheet" href="../../../../css/font-awesome.min.css" />
+
+
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href="../../../../css/jquery.tocify.css" />
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+    
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+ <script src="../../../../js/jquery.tocify.min.js"></script>
+ <meta name="generator" content="Hugo 0.37.1" />
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109508556-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+          gtag('config', 'UA-109508556-1');
+        </script>
+        
+
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Trick or Tips 002 {R}</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="../../../../">Home</a></li>
+                            
+                                <li><a href="../../../../about/">About</a></li>
+                            
+                                <li><a href="../../../../post/">Posts</a></li>
+                            
+                                <li><a href="../../../../softwares/">Softwares</a></li>
+                            
+                                <li><a href="../../../../tutorials/">Tutorials</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://github.com/inSileco/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/inSileco/"><i class="fa fa-twitter"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<img class="full-width" width="100%" src="../../../../img/banner2.png"></img>
+
+
+
+
+<div>
+
+
+  <div class="col-md-3">
+    <div class="hidden-sm hidden-xs">
+      <div id="toc"></div>
+    </div>
+  </div>
+
+  <div class="col-md-8">
+
+    <h1><a href="../../../../2017/11/12/trick-or-tips-002-r/">Trick or Tips 002 {R}</a></h1>
+
+    <h5>November 12, 2017</h5>
+
+    <p> <a href="../../../../tags/r"><kbd class="item-tag">R</kbd></a>  <a href="../../../../tags/tips"><kbd class="item-tag">tips</kbd></a>  <a href="../../../../tags/trickortips"><kbd class="item-tag">trickortips</kbd></a> </p>
+
+
+    
+      <p style = "font-size: 1.6em; margin-top: 20px"> <i class="fa fa-pencil" aria-hidden="true"></i>
+       
+        <a href="../../../../about/">Kevin Cazelles &nbsp;
+      
+    </a> <a href="#"></a></p>
+    
+
+
+    
+
+    
+
+
+    <p> <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="true" data-text="Second post of the &#39;Trick or Tips&#39; series">Tweet</a>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </p>
+
+
+    <div class="text-justify">
+      <p>
+      
+      </p>
+    </div>
+
+
+    <br>
+
+    <div class="text-justify">
+
+      <h3>Trick or Tips?</h3>
+
+Ever tumbled on a code chunk that made you say:
+"<em>I should have known this ¶ø?!@~&* piece of code long ago!?</em>"
+Chances are you have, frustratingly, just like we have, and on multiple occasions too.
+
+<br><br>
+
+In comes <b>Trick or Tips</b>!
+
+<br><br>
+
+<b>Trick or Tips</b> is a series of blog posts that each
+present 5 -- hopefully helpful -- coding tips for a specific programming
+language. Posts should be short (<em>i.e.</em> no more than 5 lines of code,
+max 80 characters per line, except when appropriate) and provide tips of
+many kind: a function, a way of combining of functions, a single argument,
+a note about the philosophy of the language and practical consequences,
+tricks to improve the way you code, good practices, etc.
+
+<br><br>
+
+Note that while some tips might be obvious for careful documentation readers
+(God bless them for their wisdom), we do our best to present what we find very
+useful and underestimated. By the way, there are undoubtedly similar initiatives on the web (<em>e.g.</em>
+<a href = "https://twitter.com/RLangTip">"One R Tip a Day" Twitter account</a>). Also, feel
+free to comment below tip ideas or a post of code tips of your own which we will be
+happy to incorporate to <b>Trick or Tips</b>.
+
+Enjoy <i class="fas fa-smile" aria-hidden></i> and get ready to frustratingly appreciate our tips!
+
+<p><br></p>
+<div id="the-drop-argument-of-the-operator" class="section level2">
+<h2>The <code>drop</code> argument of the <code>[]</code> operator</h2>
+<p>This is something not obvious and poorly known but there is a logical argument<br />
+<code>drop</code> that can be passed to the <code>[]</code> operator and I’ll try to explain why it could be useful! Let’s first create a dataframe with ten rows and three columns:</p>
+<pre class="r"><code>df &lt;- data.frame(
+  var1 = runif(10),
+  var2 = runif(10),
+  var3 = runif(10)
+)
+head(df)
+#R&gt;          var1       var2       var3
+#R&gt; 1 0.341753046 0.19376930 0.17547578
+#R&gt; 2 0.004977991 0.74399069 0.00817248
+#R&gt; 3 0.786483104 0.04411304 0.25532572
+#R&gt; 4 0.154368319 0.42376257 0.15102825
+#R&gt; 5 0.643438892 0.08479976 0.63432851
+#R&gt; 6 0.417359550 0.85412243 0.81577224</code></pre>
+<p>To extract the first column, I use the <code>[]</code> operator and either type the number of the column like so:</p>
+<pre class="r"><code>df[, 1]
+#R&gt;  [1] 0.341753046 0.004977991 0.786483104 0.154368319 0.643438892
+#R&gt;  [6] 0.417359550 0.309380911 0.197745867 0.489917742 0.106949640</code></pre>
+<p>or the name of the column to be extracted:</p>
+<pre class="r"><code>df[, &#39;var1&#39;]
+#R&gt;  [1] 0.341753046 0.004977991 0.786483104 0.154368319 0.643438892
+#R&gt;  [6] 0.417359550 0.309380911 0.197745867 0.489917742 0.106949640</code></pre>
+<p>Interestingly enough, this returns a <strong>vector</strong> not a data.frame</p>
+<pre class="r"><code>class(df)
+#R&gt; [1] &quot;data.frame&quot;
+class(df[, &#39;var1&#39;])
+#R&gt; [1] &quot;numeric&quot;</code></pre>
+<p>while if I extract two columns, I have a data frame:</p>
+<pre class="r"><code>class(df[, c(&#39;var1&#39;, &#39;var2&#39;)])
+#R&gt; [1] &quot;data.frame&quot;</code></pre>
+<p>This behavior is actually very useful in many cases as we often are happy to deal with a vector when we extract only one column. However this might become an issue when we do extractions without knowing the number of columns to be extracted beforehand (typically when extracting according to a request that can give any number of columns). In such case if the number is one then we end up with a vector instead of a data.frame. The argument <code>drop</code> provides a work around. By default it is set to <code>TRUE</code> and a 1-column dataframe becomes a vector, but using <code>drop=FALSE</code> prevents this from happening. Let’s try this:</p>
+<pre class="r"><code>df[, 1, drop=FALSE]
+#R&gt;           var1
+#R&gt; 1  0.341753046
+#R&gt; 2  0.004977991
+#R&gt; 3  0.786483104
+#R&gt; 4  0.154368319
+#R&gt; 5  0.643438892
+#R&gt; 6  0.417359550
+#R&gt; 7  0.309380911
+#R&gt; 8  0.197745867
+#R&gt; 9  0.489917742
+#R&gt; 10 0.106949640</code></pre>
+<p>Let’s check its class:</p>
+<pre class="r"><code>class(df[, 1, drop=FALSE])
+#R&gt; [1] &quot;data.frame&quot;</code></pre>
+<p>You can actually obtain the same result using the name of the column or its number without comma.</p>
+<pre class="r"><code>df[1]
+#R&gt;           var1
+#R&gt; 1  0.341753046
+#R&gt; 2  0.004977991
+#R&gt; 3  0.786483104
+#R&gt; 4  0.154368319
+#R&gt; 5  0.643438892
+#R&gt; 6  0.417359550
+#R&gt; 7  0.309380911
+#R&gt; 8  0.197745867
+#R&gt; 9  0.489917742
+#R&gt; 10 0.106949640</code></pre>
+<p>But if you need a specific selection of rows, you better use <code>drop</code>!</p>
+<pre class="r"><code>df[2:5, 1, drop=F]
+#R&gt;          var1
+#R&gt; 2 0.004977991
+#R&gt; 3 0.786483104
+#R&gt; 4 0.154368319
+#R&gt; 5 0.643438892</code></pre>
+<p>Now you know ;-)</p>
+<p><br></p>
+</div>
+<div id="get-the-citation-of-a-package" class="section level2">
+<h2>Get the citation of a package</h2>
+<p>Many researchers (it is especially TRUE in ecology) uses R and write paper and carry out analyses using R for their research. One cones the time of citing the package I guess they wonder how to cite the package. However authors of package actually provides this information in their package! Let’s have a look of the reference for the package <code>knitr</code> as of version 1.17 using function <code>citation</code></p>
+<pre class="r"><code>citation(&quot;knitr&quot;)
+#R&gt; 
+#R&gt; To cite the &#39;knitr&#39; package in publications use:
+#R&gt; 
+#R&gt;   Yihui Xie (2018). knitr: A General-Purpose Package for Dynamic
+#R&gt;   Report Generation in R. R package version 1.20.
+#R&gt; 
+#R&gt;   Yihui Xie (2015) Dynamic Documents with R and knitr. 2nd
+#R&gt;   edition. Chapman and Hall/CRC. ISBN 978-1498716963
+#R&gt; 
+#R&gt;   Yihui Xie (2014) knitr: A Comprehensive Tool for Reproducible
+#R&gt;   Research in R. In Victoria Stodden, Friedrich Leisch and Roger
+#R&gt;   D. Peng, editors, Implementing Reproducible Computational
+#R&gt;   Research. Chapman and Hall/CRC. ISBN 978-1466561595
+#R&gt; 
+#R&gt; To see these entries in BibTeX format, use &#39;print(&lt;citation&gt;,
+#R&gt; bibtex=TRUE)&#39;, &#39;toBibtex(.)&#39;, or set
+#R&gt; &#39;options(citation.bibtex.max=999)&#39;.</code></pre>
+<p>As suggested in the message, we can even retrieve a reference list in bibtex format with the <code>toBibtex</code> function, let’s do this:</p>
+<pre class="r"><code>toBibtex(citation(&quot;knitr&quot;))
+#R&gt; @Manual{,
+#R&gt;   title = {knitr: A General-Purpose Package for Dynamic Report Generation in R},
+#R&gt;   author = {Yihui Xie},
+#R&gt;   year = {2018},
+#R&gt;   note = {R package version 1.20},
+#R&gt;   url = {https://yihui.name/knitr/},
+#R&gt; }
+#R&gt; 
+#R&gt; @Book{,
+#R&gt;   title = {Dynamic Documents with {R} and knitr},
+#R&gt;   author = {Yihui Xie},
+#R&gt;   publisher = {Chapman and Hall/CRC},
+#R&gt;   address = {Boca Raton, Florida},
+#R&gt;   year = {2015},
+#R&gt;   edition = {2nd},
+#R&gt;   note = {ISBN 978-1498716963},
+#R&gt;   url = {https://yihui.name/knitr/},
+#R&gt; }
+#R&gt; 
+#R&gt; @InCollection{,
+#R&gt;   booktitle = {Implementing Reproducible Computational Research},
+#R&gt;   editor = {Victoria Stodden and Friedrich Leisch and Roger D. Peng},
+#R&gt;   title = {knitr: A Comprehensive Tool for Reproducible Research in {R}},
+#R&gt;   author = {Yihui Xie},
+#R&gt;   publisher = {Chapman and Hall/CRC},
+#R&gt;   year = {2014},
+#R&gt;   note = {ISBN 978-1466561595},
+#R&gt;   url = {http://www.crcpress.com/product/isbn/9781466561595},
+#R&gt; }</code></pre>
+<p>Even if you are no a Latex user, this could be very helpful as this file can be read by references manager softwares such as <a href="https://www.zotero.org/">Zotero</a>. So now let’s say I use the following command line:</p>
+<pre class="r"><code>cat(toBibtex(citation(&quot;knitr&quot;)), file=&#39;biblio.bib&#39;, sep=&#39;\n&#39;)</code></pre>
+<p>Then the <code>biblio.bib</code> file just created can be imported in you favorite references manager softwares.</p>
+<p><br></p>
+</div>
+<div id="using-namespace" class="section level2">
+<h2>Using namespace</h2>
+<p>In R, functions are stored in packages and adding a package is like adding a collection of functions. As you get more experienced with R you likely know and use more and more packages. You might even come to the point where you have functions that have the same name but originate from different package. If not, let me show you something:</p>
+<pre class="r"><code>library(magrittr)
+df &lt;- data.frame(
+  var1 = runif(10),
+  var2 = runif(10)
+  )
+extract(df, &#39;var1&#39;)
+#R&gt;          var1
+#R&gt; 1  0.08330175
+#R&gt; 2  0.29947569
+#R&gt; 3  0.70223159
+#R&gt; 4  0.60169554
+#R&gt; 5  0.42663621
+#R&gt; 6  0.50445171
+#R&gt; 7  0.48997816
+#R&gt; 8  0.37894227
+#R&gt; 9  0.07750957
+#R&gt; 10 0.48003491</code></pre>
+<p>Here I use the function <code>extract()</code> from the magrittr package that act as <code>[]</code> and I extract the column <code>var1</code> from <code>df</code>. This function is actually designed to be use with pipes (if this sounds weird, have a look at the <a href="http://magrittr.tidyverse.org/">magrittr</a> package), for instance when piping you can write <code>df %$% extract(var1)</code> or even <code>df %&gt;% '['('var1')</code> and this will do the same. So far, so good. Now I load the <a href="https://cran.r-project.org/web/packages/raster/index.html">raster</a> package:</p>
+<pre class="r"><code>library(raster)
+#R&gt; Loading required package: sp
+#R&gt; 
+#R&gt; Attaching package: &#39;raster&#39;
+#R&gt; The following object is masked from &#39;package:magrittr&#39;:
+#R&gt; 
+#R&gt;     extract</code></pre>
+<p>and try the same extraction.</p>
+<pre class="r"><code>extract(df, &#39;var1&#39;)
+#R&gt; Error in (function (classes, fdef, mtable) : unable to find an inherited method for function &#39;extract&#39; for signature &#39;&quot;data.frame&quot;, &quot;character&quot;&#39;</code></pre>
+<p>It does not work…Why?? Briefly, <code>extract()</code> from <code>raster</code> is now called (this was the warning message on load said) and it does not get well with data.frame (this is the meaning of the error message). To overcome this you can use a explicit namespace. To do so you put the names of the package followed by <code>::</code>, this is basically the unique identifier of the function. Indeed, within a specific package, functions have different names and on CRAN packages must have different names, so the combination of the two is unique (this holds true if you only package from the CRAN). Let’s use it:</p>
+<pre class="r"><code>magrittr::extract(df, &#39;var1&#39;)
+#R&gt;          var1
+#R&gt; 1  0.08330175
+#R&gt; 2  0.29947569
+#R&gt; 3  0.70223159
+#R&gt; 4  0.60169554
+#R&gt; 5  0.42663621
+#R&gt; 6  0.50445171
+#R&gt; 7  0.48997816
+#R&gt; 8  0.37894227
+#R&gt; 9  0.07750957
+#R&gt; 10 0.48003491</code></pre>
+<p>Using this is also very helpful when you develop a package and functions from different packages. Even if you script and use a large number of function from various packages, it could be better to remember from which package functions come from. Finally, note that this is not R specific at all, actually this something very common in programming languages.</p>
+<p><br></p>
+</div>
+<div id="how-to-use-non-exported-functions" class="section level2">
+<h2>How to use non-exported functions?</h2>
+<p>Packages often contain functions that are not exported. There are often functions called by the functions exported thats helps structuring the code of the package. However, it happens that when you try to understand how a package work you may want to spend some time understanding how they do work (especially given that they are nit documented). There is actually a way to call them! Instead of using tow colons (<code>:</code>), use three! Let’s have a look to the code of one of this function from the <code>knitr</code> package (again version 1.17):</p>
+<pre><code>knitr:::.color.block</code></pre>
+<p>Interesting, isn’t it! To give you an idea about how frequent this can be, in this packages there are 103 exported functions and 425 not-exported. Below are presented few examples of exported functions followed by not-exported ones.</p>
+<pre class="r"><code>##------------------------ Exported functions
+## knitr::pat_rnw             knitr::fig_path            knitr::all_patterns
+## knitr::fig_chunk           knitr::clean_cache         knitr::kable
+## knitr::knit_params_yaml    knitr::raw_output          knitr::render_sweave
+## knitr::stitch_rhtml        knitr::include_graphics    knitr::Sweave2knitr
+## knitr::hook_plot_asciidoc  knitr::hook_optipng        knitr::hook_plot_tex
+## knitr::knit_print          knitr::knit_watch          knitr::knit2html
+## knitr::render_html         knitr::knit2wp             knitr::rocco
+## knitr::opts_template       knitr::normal_print        knitr::include_url
+## knitr::combine_words       knitr::render_listings     knitr::current_input
+##------------------------ (27/103 displayed)
+##------------------------
+##------------------------ Not-exported functions
+## knitr:::.__NAMESPACE__.            knitr:::knit_expand
+## knitr:::.__S3MethodsTable__.       knitr:::knit_filter
+## knitr:::.base.pkgs                 knitr:::knit_global
+## knitr:::.chunk.hook.html           knitr:::knit_handlers
+## knitr:::.chunk.hook.tex            knitr:::knit_hooks
+## knitr:::.color.block               knitr:::knit_log
+## knitr:::.default.hooks             knitr:::knit_meta
+## knitr:::.fmt.pat                   knitr:::knit_meta_add
+## knitr:::.header.framed             knitr:::knit_params
+## knitr:::.header.hi.html            knitr:::knit_params_handlers
+## knitr:::.header.hi.tex             knitr:::knit_params_yaml
+## knitr:::.header.maxwidth           knitr:::knit_patterns
+## knitr:::.header.sweave.cmd         knitr:::knit_print
+## knitr:::.img.attr                  knitr:::knit_print.default
+##------------------------ (28/425 displayed)</code></pre>
+<p>I think that this could be very helpful when you want to understand exactly how a package works!</p>
+<p><br></p>
+</div>
+<div id="the-las-argument-of-par" class="section level2">
+<h2>The <code>las</code> argument of <code>par()</code></h2>
+<p>I really enjoy using <code>graphics</code> to create plots in R. That being said the default values always puzzles me! One I specially dislike is that values on the y-axis are perpendicular…</p>
+<pre class="r"><code>vec &lt;- runif(10)
+plot(vec)</code></pre>
+<p><img src="../../../../post/trick_or_tips002_files/figure-html/las0-1.svg" width="384" style="display: block; margin: auto;" /></p>
+<p>Fortunately this can readily be changed using the the <code>las</code> argument of the <code>par()</code> function which can take 3 values: 0 (default), 1 or 2. Let’s plot and see the differences:</p>
+<pre class="r"><code>par(mfrow=c(1,3), las=0)
+plot(vec, main=&#39;las=0 (default)&#39;)
+par(las=1)
+plot(vec, main=&#39;las=1&#39;)
+par(las=2)
+plot(vec, main=&#39;las=2&#39;)</code></pre>
+<p><img src="../../../../post/trick_or_tips002_files/figure-html/las-1.svg" width="960" style="display: block; margin: auto;" /></p>
+<p>So, I personally prefer and use <code>las=1</code>!</p>
+<p><br></p>
+<p><strong>That’s all for number 2 of this series, see you for the next tips!</strong></p>
+<p><br><br></p>
+</div>
+
+
+    </div>
+
+
+
+    <h3 class="page-header">Comments on this post</h3>
+
+    <div id="disqus_thread"></div>
+
+
+    
+    
+
+
+    
+      <h3 class="page-header">Related posts</h3>
+       <div class="item">
+
+  
+
+  <h1><a href="../../../../2018/02/21/hierarchical-edge-bundling-using-base-plot/">Hierarchical edge bundling using base plot</a></h1>
+
+  <h5>February 21, 2018</h5>
+
+  <p> <a href="../../../../tags/r"><kbd class="item-tag">R</kbd></a>  <a href="../../../../tags/viz"><kbd class="item-tag">Viz</kbd></a>  <a href="../../../../tags/network"><kbd class="item-tag">network</kbd></a> </p>
+
+  
+
+</div>
+  <div class="item">
+
+  
+
+  <h1><a href="../../../../2018/02/11/trick-or-tips-003-r/">Trick or Tips 003 {R}</a></h1>
+
+  <h5>February 11, 2018</h5>
+
+  <p> <a href="../../../../tags/r"><kbd class="item-tag">R</kbd></a>  <a href="../../../../tags/tips"><kbd class="item-tag">tips</kbd></a>  <a href="../../../../tags/trickortips"><kbd class="item-tag">trickortips</kbd></a> </p>
+
+  
+
+</div>
+  <div class="item">
+
+  
+
+  <h1><a href="../../../../2017/09/20/gantt-charts-in-r/">Gantt charts in R</a></h1>
+
+  <h5>September 20, 2017</h5>
+
+  <p> <a href="../../../../tags/r"><kbd class="item-tag">R</kbd></a>  <a href="../../../../tags/time-management"><kbd class="item-tag">time management</kbd></a>  <a href="../../../../tags/gantt"><kbd class="item-tag">gantt</kbd></a> </p>
+
+  
+
+</div>
+ 
+    
+
+
+    <script>
+        $(function() {
+
+            var toc = $("#toc").tocify({
+              selectors: "h2,h3",
+              scrollTo: 60
+            }).data("toc-tocify");
+
+            prettyPrint();
+            $(".optionName").popover({ trigger: "hover" });
+
+        });
+    </script>
+
+    <script>
+      
+
+
+      var disqus_config = function() {
+        this.page.url = "https://insileco.github.io" + "https://insileco.github.io/2017/11/12/trick-or-tips-002-r/"; 
+        this.page.identifier = "Trick or Tips 002 {R}"; 
+      };
+
+      (function() { 
+        var d = document,
+          s = d.createElement('script');
+        s.src = 'https://insileco.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  </div>
+</div>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; 2018 inSileco | All rights reserved | Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,  <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+
+        </footer>
+
+    </body>
+
+</html>
+

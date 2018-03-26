@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>inSileco</title>
+    <link>https://insileco.github.io/</link>
+    <description>Recent content on inSileco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insileco.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hierarchical edge bundling using base plot</title>
+      <link>https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</guid>
+      <description>I recently came across a very interesting paper from Laura Dee and collaborators focused on the concept of metanetworks and entitled “Operationalizing Network Theory for Ecosystem Service Assessments” (Dee et al 2017, TREE 32(2):118-130). After reading that article I have begun to revamp the context of my thesis around the concept of metanetworks to include environmental impact assessment and cumulative impacts assessment within such a framework.
+Work extensively with networks, you quickly realize that coming up with meaningful and useful visualization can be a bit of a challenge.</description>
+    </item>
+    
+    <item>
+      <title>Trick or Tips 003 {R}</title>
+      <link>https://insileco.github.io/2018/02/11/trick-or-tips-003-r/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2018/02/11/trick-or-tips-003-r/</guid>
+      <description>Trick or Tips? Ever tumbled on a code chunk that made you say: &#34;I should have known this ¶ø?!@~&amp;* piece of code long ago!?&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too. In comes Trick or Tips! Trick or Tips is a series of blog posts that each present 5 -- hopefully helpful -- coding tips for a specific programming language. Posts should be short (i.</description>
+    </item>
+    
+    <item>
+      <title>Setting my Debian Stretch up</title>
+      <link>https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/</guid>
+      <description>This post details my Debian Stretch setup on my Lenovo ThinkPad T470p. I got this machine in early August 2017, so I now have almost 6 months worth of experience on Debian and I thought it was a good time to 1- document the rationale behind my move from MacOS to Debian 2- explain how I set my computer up and 3- how I rate my appreciation of working on Debian.</description>
+    </item>
+    
+    <item>
+      <title>Trick or Tips 002 {R}</title>
+      <link>https://insileco.github.io/2017/11/12/trick-or-tips-002-r/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2017/11/12/trick-or-tips-002-r/</guid>
+      <description>Trick or Tips? Ever tumbled on a code chunk that made you say: &#34;I should have known this ¶ø?!@~&amp;* piece of code long ago!?&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too. In comes Trick or Tips! Trick or Tips is a series of blog posts that each present 5 -- hopefully helpful -- coding tips for a specific programming language. Posts should be short (i.</description>
+    </item>
+    
+    <item>
+      <title>Gantt charts in R</title>
+      <link>https://insileco.github.io/2017/09/20/gantt-charts-in-r/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2017/09/20/gantt-charts-in-r/</guid>
+      <description>Gantt charts Gantt charts are a very useful way to organize projects into milestones and tasks visually. They are also dead useful when comes the time to create a timeline for a project, whether it be for a research project, field work or grant applications. I recently wanted to create one, but was unsatisfied by what was available out there in terms of visuals (although there are neat R examples, see here, here and here).</description>
+    </item>
+    
+    <item>
+      <title>Efficiency of spatial intersects in R</title>
+      <link>https://insileco.github.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</guid>
+      <description>Intersects &amp;amp; R We are increasingly performing spatial analyses in R. The replicability and the efficiency of programming languages is much more appealing than using user friendly softwares like ArcGIS, even though you can still code your way through analyses when using those softwares (latter versions of QGIS do a fantastic job in that regard!). The performance of tools available for spatial analyses in R is however not completely certain.</description>
+    </item>
+    
+    <item>
+      <title>Useful web links</title>
+      <link>https://insileco.github.io/2017/09/11/useful-web-links/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2017/09/11/useful-web-links/</guid>
+      <description>The Internet… what an amazing network! So many websites, so many resources, how easy it is to get lost when navigating the vast digital ocean! Teaching how to identify credible online material is doubtlessly one of the biggest educational challenge of our time. As researchers with strong interests in computational methods in ecology, we spend a substantial amount of our time searching various kind of information online ranging from a small piece of code to massive ecological database.</description>
+    </item>
+    
+    <item>
+      <title>Animations in R: Time series of erythemal irradiance in the St. Lawrence</title>
+      <link>https://insileco.github.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</link>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</guid>
+      <description>The “need” for animations 
+As part of my PhD thesis, I am currently characterizing the intensity of multiple stressors in the estuary and gulf of St. Lawrence (see ResearchGate project for more details). I have recently needed (read: thought it would be cool) to create an animation of the temporal variations in ultra-violet intensity in the St. Lawrence. Here is how I did it.
+
+ Setting up R R version used to build the last update of this post sessionInfo()[[1]]$version.</description>
+    </item>
+    
+    <item>
+      <title>Trick or tips 001 {R}</title>
+      <link>https://insileco.github.io/2017/06/30/trick-or-tips-001-r/</link>
+      <pubDate>Fri, 30 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2017/06/30/trick-or-tips-001-r/</guid>
+      <description>Trick or Tips? Ever tumbled on a code chunk that made you say: &#34;I should have known this ¶ø?!@~&amp;* piece of code long ago!?&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too. In comes Trick or Tips! Trick or Tips is a series of blog posts that each present 5 -- hopefully helpful -- coding tips for a specific programming language. Posts should be short (i.</description>
+    </item>
+    
+    <item>
+      <title>Online ecology - Individual species description</title>
+      <link>https://insileco.github.io/2017/06/19/online-ecology---individual-species-description/</link>
+      <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2017/06/19/online-ecology---individual-species-description/</guid>
+      <description>Online ecology Let’s imagine that we are interested in a species in a given area and wish to know as much as possible about it. But, you can’t go out in the field because funding is running short. What we do have, however, is a certain knowledge of the open data science tools that are at our disposal. In a series of post about online ecology, we will find out exactly just how far these tools allow us to delve into the ecology of the species that interest us.</description>
+    </item>
+    
+    <item>
+      <title>Add icons on your R plot</title>
+      <link>https://insileco.github.io/2017/05/23/add-icons-on-your-r-plot/</link>
+      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2017/05/23/add-icons-on-your-r-plot/</guid>
+      <description>Introduction Icons are very popular on websites to improve the visual grepping (i.e. visual optimization of eyeball search). We all know how to go at the top or the bottom of a website clicking on chevrons ( ). We are also familiar with simple symbols that allow us to click and edit the text we are typing (  ). Moreover, some web applications are so widespread than their logo appears in thousands of websites (i.</description>
+    </item>
+    
+    <item>
+      <title>Make your R plot Hylian</title>
+      <link>https://insileco.github.io/2017/04/14/make-your-r-plot-hylian/</link>
+      <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2017/04/14/make-your-r-plot-hylian/</guid>
+      <description>Below are presented the 6 steps you need to make your plot a Hylian one! May the triforce be with you!  0. R Version sessionInfo()[[1L]]$version.string #R&amp;gt; [1] &amp;quot;R version 3.4.4 (2017-01-27)&amp;quot;  1. Open R and download the font The Triforce font is available on line. Below we download it using R! Alternatively, you may simply download and install it using a couple of clicks, if you proceed so, skip step 1.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://insileco.github.io/about/</link>
+      <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/about/</guid>
+      <description>About All authors of this blog are ecologists and modelers and therefore inclined to write blog posts related to both ecology and modeling. As modelers, we use various computational tools. However, given the current prevalence of R among ecologists, we tend to write more about R than other programming langages. This website it-self is been built with Rmarkdown which is a very convenient way to write about R.</description>
+    </item>
+    
+    <item>
+      <title>List of R packages to create and edit plots</title>
+      <link>https://insileco.github.io/2015/12/04/list-of-r-packages-to-create-and-edit-plots/</link>
+      <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/2015/12/04/list-of-r-packages-to-create-and-edit-plots/</guid>
+      <description>Note that the list of packages below would be updated as soon as we find a new package. If you know a package that should be in the list, please feel mention it in the disqus section that follows the list.
+
+Why use R to produce graphics? S, R’s ancestor, was first designed to be an interactive interface for calling routines from the SCS (Statistical Computing Subroutines) FORTRAN library. It expanded to be a complete programming language dedicated to data manipulation, statistical analysis and data visualization (see A brief History of S).</description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>https://insileco.github.io/tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/tutorials/</guid>
+      <description>Below are the tutorials one or more co-authors of the blog created. For each of them we porvide a title, a category, a very short description and links to the material:
+  a link to the github repository;
+  a link to a html presentation.</description>
+    </item>
+    
+    <item>
+      <title>softwares</title>
+      <link>https://insileco.github.io/softwares/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://insileco.github.io/softwares/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

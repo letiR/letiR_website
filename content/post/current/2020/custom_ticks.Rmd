@@ -1,14 +1,26 @@
 ---
+<<<<<<< HEAD
 title: "Custom tick marks with graphics"
+=======
+title: "Custom tick marks with R's base graphics system"
+>>>>>>> dev
 author: [kevin]
 date: 2020-08-26
 tags: [R, ticks, axes]
 rpkgs: [graphics]
+<<<<<<< HEAD
 tweet: "Custom ticks with base plots"
 draft: false
 review: true
 rbloggers: false
 estime: 7
+=======
+tweet: "Custom tick marks with R's base graphics system"
+draft: false
+review: true
+rbloggers: false
+estime: 9
+>>>>>>> dev
 output:
   rmarkdown::html_page:
     toc: true
@@ -232,11 +244,19 @@ box()
 
 One more tip, if you need to adjust the position of the tick you would have to
 use `mgp` (also documented in `par`) which is a vector of three elements
+<<<<<<< HEAD
 controling the following features:
 
 1. the position of the axis label
 2. the position of the tick labels
 3. the positon on the tick marks
+=======
+controlling the following features:
+
+1. the position of the axis label,
+2. the position of the tick labels,
+3. the positon on the tick marks.
+>>>>>>> dev
 
 
 ```{R mgp}
